@@ -16,7 +16,7 @@ object main {
         }
       }
       else {
-        val success = do_action_with_key()
+        val success = do_action_with()
 
         if (success) {
           game_won = true
@@ -50,7 +50,7 @@ object main {
     }
   }
 
-  def do_action_with_key():Boolean = {
+  def do_action_with():Boolean = {
 
     println("(1) Open door")
     println("(2) Look for another key")
